@@ -25,7 +25,7 @@ Ensure you have the following installed on your machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-blog-repo.git
+   git clone https://github.com/fedelombar/flombar-blog.git
    cd your-blog-repo
     ```
 
