@@ -6,14 +6,14 @@ export async function GET() {
   return new Response(
     `<?xml version="1.0" encoding="utf-8"?>
   <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Frederick Lombar</title>
+    <title>Federico Lombardozzi</title>
     <subtitle>Essays</subtitle>
     <link href="https://flombar.com/atom" rel="self"/>
     <link href="https://flombar.com/"/>
     <updated>${posts[0].date}</updated>
     <id>https://flombar.com/</id>
     <author>
-      <name>Frederick Lombar</name>
+      <name>Federico Lombardozzi</name>
       <email>flombar@proton.com</email>
     </author>
     ${posts.slice(0, max).reduce((acc, post) => {

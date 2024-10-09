@@ -10,15 +10,15 @@ import { doge } from "./doge";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Frederick Lombar's blog",
+  title: "Federico Lombardozzi's blog",
   description:
-    "Frederick Lombar is a software engineer.",
+    "Federico Lombardozzi is a software engineer.",
   openGraph: {
-    title: "Frederick Lombar's blog",
+    title: "Federico Lombardozzi's blog",
     description:
-      "Frederick Lombar is a software engineer.",
+      "Federico Lombardozzi is a software engineer.",
     url: "https://flombar.com",
-    siteName: "Frederick Lombar's blog",
+    siteName: "Federico Lombardozzi blog",
   },
   twitter: {
     card: "summary_large_image",
