@@ -8,10 +8,11 @@ export default async function MainOG() {
   // fonts
   const inter300 = fetch(
     new URL(
-      `../node_modules/@fontsource/inter/files/inter-latin-300-normal.woff`,
+      `/node_modules/@fontsource/inter/files/inter-latin-300-normal.woff`,
       import.meta.url
     )
   ).then(res => res.arrayBuffer());
+
 
   const inter600 = fetch(
     new URL(

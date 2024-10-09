@@ -7,9 +7,7 @@ import commaNumber from "comma-number";
 
 export default async function AboutOG() {
   // flombar photo
-  const flombarPhoto = fetch(
-    new URL(`../../public/images/flombar-3d4cecf.gray.jpeg`, import.meta.url)
-  ).then(res => res.arrayBuffer());
+  const flombarPhoto = fetch(`/images/flombar-3d4cecf.gray.jpeg`).then(res => res.arrayBuffer());
 
   // fonts
   const inter300 = fetch(
