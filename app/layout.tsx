@@ -22,8 +22,8 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@ishipfast",
-    creator: "@ishipfast",
+    site: "@lombarrr",
+    creator: "@lombarrr",
   },
   metadataBase: new URL("https://flombar.com"),
 };

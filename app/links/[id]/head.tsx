@@ -14,7 +14,7 @@ export default function LinkHead({ params }: { params: { id: string } }) {
       <meta property="og:site_name" content="Federico Lombardozzi" />
       <meta property="og:description" content={link.description} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@ishipfast" />
+      <meta name="twitter:site" content="@lombarrr" />
       <meta
         property="og:image"
         content={`https://flombar.com/og/${link.image}`}
